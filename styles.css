@@ -389,6 +389,7 @@ em { font-family: var(--serif); font-style: italic; font-weight: 400; }
 .row .clip.reveal:nth-child(3) { transition-delay: .16s; }
 .row .clip.reveal:nth-child(4) { transition-delay: .24s; }
 .row .clip.reveal:nth-child(5) { transition-delay: .32s; }
+.row .clip.reveal:nth-child(6) { transition-delay: .4s; }
 
 /* ---------- mobile + touch refinements ---------- */
 .swipe-hint { display: none; color: var(--text-dim); font-size: 10.5px; margin: -16px 0 14px; }
