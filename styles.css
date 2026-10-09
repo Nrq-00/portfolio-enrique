@@ -239,6 +239,8 @@ em { font-family: var(--serif); font-style: italic; font-weight: 400; }
 .tags { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
 .tags li { border: 1px solid var(--line); border-radius: 999px; padding: 6px 12px; font-size: 11px; color: var(--text-mute); }
 @media (max-width: 860px) { .featured { grid-template-columns: 1fr; } }
+.featured.featured-inline { margin-bottom: 0; }
+.featured-inline .featured-title { font-size: clamp(28px, 3.2vw, 44px); }
 
 /* groups */
 .group + .group { margin-top: clamp(80px, 10vw, 130px); }
